@@ -1,0 +1,7 @@
+<h1>Ejemplo 2 actualizando un nombre usando el imput</h1>
+
+<div>
+    <input #myName (input)="updateName(myName.value)">
+
+    <p>El nombre ingresado es:{{nombre()}}</p>
+</div>
